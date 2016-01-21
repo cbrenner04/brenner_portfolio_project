@@ -1,0 +1,19 @@
+Requirements
+
+HTML/CSS
+1. A header section that contains your name, logo (optional) and a navbar.
+2. A footer section that will include useful links (i.e., links to your Twitter or LinkedIn pages).
+3. A homepage with a main section that features samples from your portfolio (it’s okay if you don’t have any other projects to show off yet. You can make thumbnails that say “Coming Soon!”).
+4. An “About Me” page.
+5. Your homepage and “About Me” page will be navigable from your navbar
+
+jQuery
+1. Basic functionality using Javascript and jQuery:
+  * “I’d like to see screenshots of a few of your portfolio projects in a slideshow,” (this http://stereocreative.com/ shows an example).
+  * “I want to see your projects organized like cards, that rearrange as I resize my browser window.”
+  * “I also want to be able to filter through your portfolio projects using buttons that say things like, ‘HTML & CSS’, ‘Javascript & jQuery’ etc., that make only corresponding projects visible,” (like this page).
+
+2. Bonus functionality using Javascript and jQuery:
+  * “I should be able to reveal your navigation by clicking on a button, and also be able to hide your navigation by pushing that button again or by pressing an ‘X’ button,” (like this page).
+  * “If your portfolio is one page, I want your navigation links to take me there by scrolling down the page smoothly, instead of the page suddenly clicking down to an anchor tag,” (like this http://salleedesign.com/home/ when you click “Read more”).
+  * “I want to see more about your project by clicking on its image, but without leaving the current page. A modal window should appear on top of your page with details about the project I clicked on,” (like this http://vodkabears.github.io/remodal/# when you click on “Show”).

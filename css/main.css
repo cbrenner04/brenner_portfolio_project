@@ -1,0 +1,142 @@
+html { font-family: Verdana, Geneva, sans-serif; }
+
+a { text-decoration: none; }
+
+div { position: relative; }
+
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #40544B;
+  z-index: 1000;
+}
+
+.brand {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 10px;
+}
+
+.brand a {
+  font-weight: 600;
+  -webkit-text-stroke: 1px black;
+  color: #FDDA94;
+}
+
+.brand a:visited { color: #FDDA94; }
+
+.brand a:hover { color: #EB6C44; }
+
+.navbar {
+  float: right;
+  top: 25px;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.nav_btn {
+  margin: 20px;
+  font-size: 20px;
+  display: inline;
+}
+
+.nav_btn a {
+  font-weight: 600;
+  -webkit-text-stroke: 0.5px black;
+  color: #FDDA94;
+  text-shadow:
+    0.5px 0.5px 0 #000,
+    -0.5px -0.5px 0 #000,  
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+    0.5px 0.5px 0 #000;
+}
+
+.nav_btn a:visited { color: #FDDA94; }
+
+.nav_btn a:hover { color: #EB6C44; }
+
+#jumbotron {
+  width: 100%;
+  left: 0;
+  position: absolute;
+}
+
+.slides {
+  display: block;
+  left: 0;
+  width: 5760px;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  float: left;
+  left: 0;
+  list-style-type: none;
+  width: 1440px;
+  height: auto;
+}
+
+#overlap {
+  width: 100%;
+  left: 0;
+  top: 100px;
+  position: absolute;
+  z-index: 1000;
+}
+
+.btn {
+  position: relative;
+  float: left;
+  list-style-type: none;
+  font-size: 25px;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 250px;
+  background-color: #40544B;
+  color: #FDDA94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn a:visited { color: #FDDA94 }
+
+.btn_hover { color: #EB6C44 }
+
+#footer {
+  position: fixed;
+  clear: both;
+  bottom: 0px;
+  left: 0px;
+  height: 35px;
+  width: 100%;
+  background-color: #40544B;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.foot_btn {
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #FDDA94;
+}
+
+.foot_btn p { display: inline; }
+
+.foot_btn a { color: #FDDA94; }
+
+.foot_btn a:visited { color: #FDDA94; }
+
+.foot_btn a:hover { color: #EB6C44; }
